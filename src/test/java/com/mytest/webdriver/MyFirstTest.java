@@ -9,7 +9,7 @@ public class MyFirstTest {
     public void startDriver(){
         WebDriver driver = new FirefoxDriver();
         driver.navigate().to("https://biq-dev.sentrana.com/biq");
-        Assert.assertTrue("title should start with MarketMover",driver.getTitle().startsWith("arketMover"));
+        Assert.assertTrue("title should start with MarketMover",driver.getTitle().startsWith("MarketMover"));
         driver.close();
         driver.quit();
     }
