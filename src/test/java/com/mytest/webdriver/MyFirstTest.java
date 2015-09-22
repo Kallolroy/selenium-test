@@ -15,4 +15,12 @@ public class MyFirstTest {
         driver.quit();
     }
 
+    @Test
+    public void anotherTest(){
+        WebDriver driver = new FirefoxDriver();
+        driver.navigate().to("https://biq-dev.sentrana.com/biq");
+        Assert.assertTrue(driver.getTitle().startsWith("rketMover"),"title should start with MarketMover");
+        driver.close();
+        driver.quit();
+    }
 }
