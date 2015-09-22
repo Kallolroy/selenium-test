@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mytest.webdriver.MyFirstTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.096 sec <<< FAILURE! - in com.mytest.webdriver.MyFirstTest
+anotherTest(com.mytest.webdriver.MyFirstTest)  Time elapsed: 53.548 sec  <<< FAILURE!
+java.lang.AssertionError: title should start with MarketMover expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at com.mytest.webdriver.MyFirstTest.anotherTest(MyFirstTest.java:22)
+

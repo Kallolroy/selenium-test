@@ -26,5 +26,8 @@
         <module name="myfirstseliniumtest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myfirstseliniumtest" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
